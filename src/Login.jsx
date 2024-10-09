@@ -3,7 +3,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "firebase/auth";
-import { auth } from "../../hack-a-thing2/src/firebase";
+import { auth } from "../../hackathing2/src/firebase";
 
 const Login = () => {
   const [email, setEmail] = useState(true);

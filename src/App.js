@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Login from "./Login";
-import { auth } from "../../hack-a-thing2/src/firebase";
+import { auth } from "../../hackathing2/src/firebase";
 import { useNavigate } from "react";
 import {
   createUserWithEmailAndPassword,
