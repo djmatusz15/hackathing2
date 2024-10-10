@@ -1,0 +1,53 @@
+.user {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.user h1 {
+  text-align: center;
+  color: #333;
+}
+
+.user form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.user input[type="text"],
+.user input[type="file"],
+.user input[type="submit"],
+.user button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.user button {
+  background-color: #007bff;
+  color: white;
+}
+
+.images-section {
+  margin-top: 20px;
+}
+
+.images-section h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.images-grid img {
+  width: 100%;
+  border-radius: 4px;
+}
